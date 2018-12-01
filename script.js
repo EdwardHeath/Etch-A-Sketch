@@ -9,8 +9,11 @@ function reset() {
 		container.removeChild(container.firstChild);
 	}
 
-	let size = prompt("Grid reset. Enter a size for new grid");
-	makeGrid(size);
+	let size = 0;
+	while(size <= 0) {
+		size = prompt("Grid reset. Enter a size for new grid");
+		makeGrid(size);
+	}
 }
 
 function makeGrid(size) {

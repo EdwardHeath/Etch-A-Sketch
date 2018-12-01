@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.box {
+	background-color: white;
+	height: 25%;
+	width: 100%;
+}
+
+.column {
+	height: 100%;
+	width: 25%;
+}
